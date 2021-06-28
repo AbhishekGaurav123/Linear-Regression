@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv(r"C:\Users\btc_csv_file\BTC_july.csv")
+dataset = pd.read_csv(r"C:\Users\salary.csv")
 
 X = dataset.iloc[:, 1:-1].values#independent variable
 y = dataset.iloc[:, -1].values#dependent or target variable
